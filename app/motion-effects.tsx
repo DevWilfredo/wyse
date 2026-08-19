@@ -60,6 +60,9 @@ const targets = [
   ".i-funds > div > span",
   ".i-contact-inner > *",
   ".i-form-card form > *",
+  ".team-hero .team-shell > *",
+  ".team-grid > article",
+  ".team-cta > *",
 ].join(",");
 
 export default function MotionEffects() {

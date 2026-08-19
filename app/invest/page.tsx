@@ -143,6 +143,8 @@ export default function InvestPage() {
           <Link className="active" href="/invest">
             Invest
           </Link>
+          <i>—</i>
+          <Link href="/our-team">Our Team</Link>
         </nav>
         <a className="nav-cta" href="#contact">
           Join the Revolution
@@ -410,6 +412,7 @@ export default function InvestPage() {
             <Link href="/technology">Technology</Link>
             <Link href="/benefits">Benefits</Link>
             <Link href="/invest">Invest</Link>
+            <Link href="/our-team">Our Team</Link>
           </nav>
         </div>
         <div className="container copyright">

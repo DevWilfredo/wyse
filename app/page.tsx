@@ -392,6 +392,10 @@ export default function Home() {
           <a href="/invest" onClick={() => setMenuOpen(false)}>
             Invest
           </a>
+          <i>—</i>
+          <a href="/our-team" onClick={() => setMenuOpen(false)}>
+            Our Team
+          </a>
         </nav>
         <button className="nav-cta" onClick={() => setModalOpen(true)}>
           Join the Revolution
@@ -749,6 +753,7 @@ export default function Home() {
             <a href="/technology">Technology</a>
             <a href="/benefits">Benefits</a>
             <button onClick={() => setModalOpen(true)}>Invest</button>
+            <a href="/our-team">Our Team</a>
           </nav>
         </div>
         <div className="container copyright">

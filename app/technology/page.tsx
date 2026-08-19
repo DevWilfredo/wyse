@@ -134,6 +134,8 @@ export default function TechnologyPage() {
           <Link href="/benefits">Benefits</Link>
           <i>—</i>
           <Link href="/invest">Invest</Link>
+          <i>—</i>
+          <Link href="/our-team">Our Team</Link>
         </nav>
         <Link className="nav-cta" href="/invest">
           Join the Revolution
@@ -199,13 +201,22 @@ export default function TechnologyPage() {
               {systemFeatures.map((feature) => <li key={feature}>{feature}</li>)}
             </ul>
           </div>
-          <div className="t-app-frame">
-            <Image
-              src="/wyse/technology-app.png"
-              alt="WYSE mobile app monitoring voltage and savings"
-              fill
-              sizes="(max-width:700px) 100vw,448px"
-            />
+          <div className="t-app-frame" data-node-id="23:1575">
+            <video
+              className="t-app-video"
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="metadata"
+              poster="/wyse/technology-app.png"
+              aria-label="WYSE intelligent energy system mobile application"
+            >
+              <source
+                src="/videos/Wyse_Anim_Complete_Expanded_1.mp4"
+                type="video/mp4"
+              />
+            </video>
           </div>
         </div>
       </section>
@@ -366,7 +377,7 @@ export default function TechnologyPage() {
             <Link href="/technology">Technology</Link>
             <Link href="/benefits">Benefits</Link>
             <Link href="/invest">Invest</Link>
-            <Link href="/#team">Our Team</Link>
+            <Link href="/our-team">Our Team</Link>
           </nav>
         </div>
         <div className="container copyright">

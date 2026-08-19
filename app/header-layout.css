@@ -1,0 +1,21 @@
+/* Desktop header: balanced three-column composition keeps navigation centered. */
+@media (min-width: 901px) {
+  .navbar {
+    display: grid;
+    grid-template-columns: minmax(150px, 1fr) auto minmax(240px, 1fr);
+    align-items: center;
+  }
+
+  .navbar .logo-link {
+    justify-self: start;
+  }
+
+  .navbar .nav-links {
+    justify-self: center;
+    margin-left: 0;
+  }
+
+  .navbar .nav-cta {
+    justify-self: end;
+  }
+}

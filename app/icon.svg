@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">WYSE</title>
+  <defs>
+    <linearGradient id="tile" x1="8" y1="4" x2="57" y2="61" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12252c"/>
+      <stop offset="1" stop-color="#061014"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="8" y1="17" x2="56" y2="47" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#73eaff"/>
+      <stop offset=".48" stop-color="#3fc5e8"/>
+      <stop offset="1" stop-color="#00d1f3"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-45%" width="160%" height="190%">
+      <feGaussianBlur stdDeviation="1.35" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#tile)"/>
+  <rect x="2.5" y="2.5" width="59" height="59" rx="14.5" fill="none" stroke="#3fc5e8" stroke-opacity=".32"/>
+  <!-- The monogram uses the W geometry from the official WYSE wordmark. -->
+  <g transform="translate(7 15) scale(1.22)" filter="url(#glow)">
+    <path d="M31.4793 27.6995H28.5613L20.3578 3.40022L12.1543 27.6964H9.23629L0 0.289315H2.52606L10.7295 25.0553L19.0481 0.289315H21.7297L30.0296 25.0179L38.2517 0.289315H40.7187L31.4793 27.6995Z" fill="url(#mark)"/>
+  </g>
+</svg>

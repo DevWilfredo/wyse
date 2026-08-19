@@ -79,6 +79,8 @@ export default function TechnicalBriefPage() {
           <Link href="/benefits">Benefits</Link>
           <i>—</i>
           <Link href="/invest">Invest</Link>
+          <i>—</i>
+          <Link href="/our-team">Our Team</Link>
         </nav>
         <Link className="nav-cta" href="/invest">
           Join the Revolution
@@ -269,8 +271,8 @@ export default function TechnicalBriefPage() {
                     ["216 V (ANSI Range A floor)", "≈ 3,645 W", "-19.0%"],
                   ].map((r) => (
                     <tr key={r[0]}>
-                      {r.map((c) => (
-                        <td key={c}>{c}</td>
+                      {r.map((c, cellIndex) => (
+                        <td key={`${r[0]}-${cellIndex}`}>{c}</td>
                       ))}
                     </tr>
                   ))}
@@ -310,8 +312,8 @@ export default function TechnicalBriefPage() {
                     ["Final temperature reached", "1,076°F", "1,076°F"],
                   ].map((r) => (
                     <tr key={r[0]}>
-                      {r.map((c) => (
-                        <td key={c}>{c}</td>
+                      {r.map((c, cellIndex) => (
+                        <td key={`${r[0]}-${cellIndex}`}>{c}</td>
                       ))}
                     </tr>
                   ))}
@@ -497,7 +499,7 @@ export default function TechnicalBriefPage() {
             <Link href="/technology">Technology</Link>
             <Link href="/benefits">Benefits</Link>
             <Link href="/invest">Invest</Link>
-            <Link href="/#team">Our Team</Link>
+            <Link href="/our-team">Our Team</Link>
           </nav>
         </div>
         <div className="container copyright">

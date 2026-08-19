@@ -97,7 +97,7 @@ export default function BenefitsPage() {
     <header className="navbar technology-nav benefits-nav">
       <Link href="/" className="logo-link" aria-label="WYSE home"><Image src="/wyse/logo.svg" alt="WYSE" width={114} height={28} priority /></Link>
       <nav className={menuOpen ? "nav-links open" : "nav-links"} aria-label="Main navigation">
-        <Link href="/">Home</Link><i>—</i><Link href="/technology">Technology</Link><i>—</i><Link href="/#impact">Impact</Link><i>—</i><Link href="/technical-brief">Technical Brief</Link><i>—</i><Link className="active" href="/benefits">Benefits</Link><i>—</i><Link href="/invest">Invest</Link>
+        <Link href="/">Home</Link><i>—</i><Link href="/technology">Technology</Link><i>—</i><Link href="/#impact">Impact</Link><i>—</i><Link href="/technical-brief">Technical Brief</Link><i>—</i><Link className="active" href="/benefits">Benefits</Link><i>—</i><Link href="/invest">Invest</Link><i>—</i><Link href="/our-team">Our Team</Link>
       </nav>
       <Link className="nav-cta" href="/invest">Join the Revolution</Link>
       <button className="menu-toggle" aria-label="Toggle menu" aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}><span/><span/></button>
@@ -148,6 +148,6 @@ export default function BenefitsPage() {
       </div>
     </section>
 
-    <footer><div className="container footer-top"><div><Image src="/wyse/logo.svg" alt="WYSE" width={130} height={32}/><p>Smarter Homes — Smarter Grids — Lower Energy Bills.</p></div><nav><Link href="/">Home</Link><Link href="/technology">Technology</Link><Link href="/benefits">Benefits</Link><Link href="/invest">Invest</Link><Link href="/#team">Our Team</Link></nav></div><div className="container copyright">© 2025 WYSE Power Systems, Inc. All rights reserved.</div></footer>
+    <footer><div className="container footer-top"><div><Image src="/wyse/logo.svg" alt="WYSE" width={130} height={32}/><p>Smarter Homes — Smarter Grids — Lower Energy Bills.</p></div><nav><Link href="/">Home</Link><Link href="/technology">Technology</Link><Link href="/benefits">Benefits</Link><Link href="/invest">Invest</Link><Link href="/our-team">Our Team</Link></nav></div><div className="container copyright">© 2025 WYSE Power Systems, Inc. All rights reserved.</div></footer>
   </main>;
 }
