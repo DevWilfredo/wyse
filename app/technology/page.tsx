@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import styles from "./technology.module.css";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -23,12 +24,12 @@ const steps = [
 ];
 
 const systemFeatures = [
-  "Remote Control",
-  "AI Optimization",
-  "Verified Savings",
-  "Smart Scheduling",
-  "Advanced Analytics",
-  "Plug & Play",
+  { icon: "/wyse/technology-feature-1.svg", label: "Remote Control" },
+  { icon: "/wyse/technology-feature-2.svg", label: "AI Optimization" },
+  { icon: "/wyse/technology-feature-3.svg", label: "Verified Savings" },
+  { icon: "/wyse/technology-feature-4.svg", label: "Smart Scheduling" },
+  { icon: "/wyse/technology-feature-5.svg", label: "Advanced Analytics" },
+  { icon: "/wyse/technology-feature-6.svg", label: "Plug & Play" },
 ];
 
 const proofPoints = [
@@ -198,7 +199,12 @@ export default function TechnologyPage() {
               becomes smarter over time—without changing how you use your home.
             </p>
             <ul className="t-system-features">
-              {systemFeatures.map((feature) => <li key={feature}>{feature}</li>)}
+              {systemFeatures.map((feature) => (
+                <li key={feature.label} className={styles.featureItem}>
+                  <Image src={feature.icon} alt="" width={20} height={20} />
+                  <span>{feature.label}</span>
+                </li>
+              ))}
             </ul>
           </div>
           <div className="t-app-frame" data-node-id="23:1575">
@@ -258,9 +264,10 @@ export default function TechnologyPage() {
             <Eyebrow>Distributed Intelligence</Eyebrow>
             <h2>The Grid Is Becoming Distributed</h2>
             <p>
-              Homes now contain high-load appliances, EV chargers, heat pumps,
-              and home batteries. Electricity demand is becoming more dynamic,
-              distributed, and difficult to manage.
+              Homes now contain high-load appliances, EV chargers, smart
+              devices, solar panels, and battery storage. Without coordination,
+              demand is volatile and dangerous. With appliance-level
+              intelligence, it&apos;s manageable.
             </p>
             <p>
               WYSE creates a distributed optimization layer across millions of
@@ -315,10 +322,10 @@ export default function TechnologyPage() {
         <div className="t-copy">
           <Eyebrow>Why WYSE Matters</Eyebrow>
           <h2>
-            The next generation of energy isn’t about producing more
+            The next generation of energy isn&apos;t about producing more
             electricity.
             <br />
-            <span>It’s about using it more intelligently.</span>
+            <span>It&apos;s about using it more intelligently.</span>
           </h2>
           <p>
             For decades, the electric grid has delivered electricity the same
@@ -341,7 +348,7 @@ export default function TechnologyPage() {
           <p className="t-final-line">
             More than a device. More than software.{" "}
             <span>
-              WYSE is building the intelligence layer for tomorrow’s electric
+              WYSE is building the intelligence layer for tomorrow&apos;s electric
               grid.
             </span>
           </p>

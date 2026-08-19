@@ -23,7 +23,7 @@ const problems = [
   [
     "/wyse/graph.svg",
     "Peak load is rising faster than infrastructure",
-    "Grid buildout takes decades. Demand isn’t waiting.",
+    "Grid buildout takes decades. Demand isn't waiting.",
   ],
 ];
 const impacts = [
@@ -39,19 +39,19 @@ const impacts = [
   ],
   [
     "/wyse/impact-plant.png",
-    "A power plant we don’t have to build",
+    "A power plant we don't have to build",
     "Demand reduction at this scale replaces the need for new generation capacity.",
   ],
   [
     "/wyse/impact-interior.png",
-    "Hundreds of millions kept in consumers’ pockets",
+    "Hundreds of millions kept in consumers' pockets",
     "Real, measurable savings returned to the families who need them most.",
   ],
 ];
 const technology = [
   [
     "voltage",
-    "Optimizes voltage in real time",
+    "Optimizes voltage safely & automatically",
     "Continuously adjusts voltage within regulatory tolerance ranges without any user intervention or comfort loss.",
   ],
   [
@@ -76,116 +76,120 @@ const news = [
     "Dive Brief",
     "July 16, 2026",
     "Retail electric rate increases outpace inflation with prices set to rise higher",
-    "Regulators approved 64% of the dollar value of revenue increase requests over the past five years.",
+    "Regulators approved 64% of the dollar value of revenue increase requests over the past five years, a Lawrence Berkeley National Lab report says.",
   ],
   [
     "/wyse/news-2.png",
     "Utility Dive",
     "July 17, 2026",
     "AI data center growth could force US utilities to rethink generation plans, BofA says",
-    "Data center demand will outpace planned utility capacity additions by more than 100 GW through 2030.",
+    "Data center demand will outpace planned utility capacity additions by more than 100 GW through 2030, increasing reliance on on-site gas generation and battery storage.",
   ],
   [
     "/wyse/news-3.png",
     "Daily Energy Insider",
     "Feb 18, 2026",
     "AI is reshaping U.S. electricity demand faster than the grid can keep up",
-    "Electricity consumption is entering a new era of rapid, structural growth.",
+    "Data centers accounted for at least 60% of last year's increase in U.S. electricity demand, straining an aged grid that struggles to keep up despite upgrade investments.",
   ],
   [
     "/wyse/news-4.png",
     "Utility Dive",
     "Dec 23, 2025",
     "Home efficiency upgrades could offset data center loads while creating jobs: report",
-    "Efficiency investments can benefit local grids, employment and utility ratepayers.",
+    "A report from AnnDyl shows significant potential benefits for local grids, employment and utility ratepayers when data center companies invest in residential energy efficiency.",
   ],
   [
     "/wyse/news-5.png",
     "Utility Dive",
     "Nov 26, 2025",
     "Residential electricity prices continue rise, up 7.4% in September: EIA",
-    "Capacity constraints, transmission and fuel costs are pushing household prices higher.",
+    "Some industry sources say the rise in prices is a function of generation capacity constraints, while others cite transmission and fuel costs. No one sees a near-term solution.",
   ],
   [
     "/wyse/news-6.png",
     "Opinion",
     "Feb 6, 2025",
     "Electricity is the next energy crisis",
-    "Demand is accelerating while infrastructure takes years to plan and build.",
+    "Electricity demand and distribution technologies won't solve the entire problem but they can provide immediate relief.",
   ],
 ];
 const faqs = [
   [
     "What exactly is WYSE?",
-    "WYSE is an intelligent home energy management system that reduces avoidable electricity consumption without changing the way you live.",
+    "WYSE is an AI-powered home energy management system that intelligently optimizes how high-consumption appliances use electricity. Instead of asking homeowners to change their habits, WYSE automatically reduces wasted energy while maintaining comfort and convenience.",
   ],
   [
     "How does WYSE reduce my electricity bill?",
-    "It uses real-time data and adaptive voltage optimization to reduce energy waste in high-load appliances.",
+    "WYSE reduces your water heating bill in two ways. First, its AI learns your household's hot-water usage patterns and eliminates wasted heating — cutting cycles short when you have enough hot water, and scheduling heating only when you need it. Second, the device coordinates with your utility during peak grid events to trim power draw, which can earn you demand-response credits. Both functions operate within ANSI safety limits and never affect your hot-water comfort.",
   ],
   [
     "Do I have to change my daily routine?",
-    "No. WYSE works automatically in the background and is designed to preserve comfort and convenience.",
+    "No. WYSE is designed to work automatically in the background. There are no schedules you have to manage, no manual adjustments, and no lifestyle changes required unless you choose to customize settings through the mobile app.",
   ],
   [
     "Will I notice any difference?",
-    "You should notice lower energy use, not a change in appliance performance or comfort.",
+    "For most homeowners, the only noticeable difference should be lower electricity consumption. WYSE is designed to maintain appliance performance and comfort while reducing unnecessary energy use.",
   ],
   [
     "Is WYSE safe for my appliances?",
-    "Yes. The system operates within regulated voltage tolerances and continuously monitors performance.",
+    "Yes. WYSE continuously operates within appliance and electrical safety limits. The system includes multiple layers of monitoring, protection, and intelligent control designed to maintain safe operation at all times.",
   ],
   [
     "Does WYSE replace my electrical panel?",
-    "No. It integrates with the home’s existing electrical infrastructure.",
+    "No. WYSE installs at the appliance level. It works alongside your existing electrical system without replacing your electrical panel or requiring major modifications to your home.",
   ],
   [
     "What appliances does WYSE work with?",
-    "The current system targets water heating, with additional high-load appliance optimization planned.",
+    "The first generation is designed for high-energy appliances such as electric water heaters; continuing with HVAC systems, heat pumps, and other compatible high-load appliances. Additional appliance support will expand over time through software and future hardware releases.",
   ],
   [
     "Can I control WYSE from my phone?",
-    "Connected controls and energy insights are part of the WYSE product roadmap.",
+    "Yes. The WYSE mobile app allows you to view energy savings, monitor appliance status, adjust settings, schedule operation, receive notifications, and view historical performance.",
   ],
   [
     "Does WYSE require Wi-Fi?",
-    "Connectivity enables monitoring and intelligence features; core safety behavior remains local.",
+    "Internet connectivity enables cloud features, AI improvements, and remote monitoring. If connectivity is temporarily unavailable, the device continues operating locally using its built-in optimization algorithms.",
   ],
   [
     "Does WYSE learn over time?",
-    "Yes. Its machine-learning layer uses ongoing system data to improve optimization.",
+    "Yes. Machine learning continuously analyzes operating data to improve optimization strategies and adapt to your home's usage patterns.",
   ],
   [
     "Can WYSE work with solar panels?",
-    "WYSE is designed to complement distributed energy resources, including residential solar.",
+    "Yes. WYSE is designed to complement homes with solar generation by helping optimize when and how electricity is consumed.",
   ],
   [
     "Can WYSE work with home batteries?",
-    "The architecture is designed to coordinate with home batteries as the platform expands.",
+    "Yes. Future software capabilities are expected to further enhance coordination with battery storage systems.",
   ],
   [
     "Will it work in Europe?",
-    "Market availability depends on local electrical standards and certification.",
+    "WYSE is being designed for compatibility with both North American and European electrical standards. Availability may vary depending on certification requirements and local regulations.",
   ],
   [
     "Can I install it myself?",
-    "Installation should be completed by a qualified professional.",
+    "Installation requirements will depend on the appliance and local electrical codes. Professional installation is recommended for high-voltage appliances.",
   ],
   [
     "What happens if the power goes out?",
-    "WYSE safely resumes operation when electricity is restored.",
+    "WYSE automatically resumes normal operation when electrical service returns.",
   ],
   [
     "Does WYSE collect my personal information?",
-    "The system is designed around energy telemetry, with privacy and security controls for connected services.",
+    "WYSE collects operational system data used to improve performance and optimize energy management. Personal information is handled in accordance with our Privacy Policy.",
   ],
   [
     "Will software updates be automatic?",
-    "Connected systems can receive secure updates as the platform evolves.",
+    "Yes. The system is designed to receive secure over-the-air software updates that continuously improve features, performance, and AI optimization.",
   ],
   [
     "When will WYSE become available?",
-    "Join the WYSE list to receive availability and investment updates.",
+    "WYSE is currently progressing through engineering validation, product certification, and pilot deployments. Sign up to follow our progress and be among the first to hear about pilot results, product availability, and launch announcements.",
+  ],
+  [
+    "Who benefits from WYSE?",
+    "WYSE is designed to benefit everyone in the energy chain, not just the homeowner. Homeowners and small businesses benefit directly through reduced energy bills, consistent with the measured water-heating results in this brief. Utility companies stand to benefit as well: WYSE's architecture is designed to function as a Demand Side Management (DSM) resource. Today, many utilities manage peak demand by temporarily shutting off enrolled loads — water heaters, air conditioners — at customers' homes during high-demand periods, a blunt tool that can noticeably affect comfort. WYSE is designed to reduce load automatically and continuously as part of normal operation, with minimal impact on the homeowner's routine, and to manage any additional reduction requested during a utility demand-response event within the same comfort-first guardrails. It is also designed to give utilities appliance-level visibility into energy consumption and usage patterns that most utilities cannot currently see, since standard smart meters report only whole-home totals, not what's happening at each individual appliance.",
   ],
 ];
 const investorFaqs = [
@@ -441,9 +445,9 @@ export default function Home() {
             <strong>Smarter Homes — Smarter Grids — Lower Energy Bills.</strong>
           </p>
           <p className="hero-copy">
-            AI-driven voltage optimization cuts water heater energy use by
-            <br className="hero-copy-break" /> up to 25% — with A/C optimization
-            coming next.
+            Intelligent energy management cuts water heater bills by up to 22%
+            and turns your home into a grid asset — with A/C optimization coming
+            next.
           </p>
           <div className="actions">
             <Button onClick={() => setModalOpen(true)}>Invest in WYSE</Button>
@@ -468,10 +472,10 @@ export default function Home() {
                 key={group}
               >
                 {[
-                  "LESS WASTE",
-                  "MORE INTELLIGENCE",
                   "LESS POWER CONSUMPTION",
                   "LESS COST",
+                  "LESS WASTE",
+                  "MORE INTELLIGENCE",
                 ].map((text) => (
                   <span key={text}>
                     <Image
@@ -505,7 +509,7 @@ export default function Home() {
           <p className="problem-close">
             Utilities respond by <strong>building more generation, raising rates, and
             shutting appliances off during peak events.</strong>{" "}
-            <a href="#technology">But there’s another way →</a>
+            <a href="#technology">But there&apos;s another way →</a>
           </p>
         </div>
       </section>
@@ -520,9 +524,9 @@ export default function Home() {
             homes joined?
           </h2>
           <div className="stats">
-            <ImpactStat target={1} decimals={1} suffix=" TWh" title="Electricity saved every year" />
-            <ImpactStat target={379893} grouped suffix=" MT" title="CO₂ emissions avoided annually" />
-            <ImpactStat target={1} decimals={1} suffix=" GW" title="Removed from peak grid stress" />
+            <ImpactStat target={1} suffix=" TWh" title="Electricity saved every year" />
+            <ImpactStat target={380000} grouped suffix=" MT" title="CO₂ emissions avoided annually" />
+            <ImpactStat target={1} suffix=" GW" title="Removed from peak grid stress" />
             <ImpactStat target={180} prefix="$" suffix="M" title="Saved by families each year" />
           </div>
           <p className="center-question">What does that really mean?</p>
@@ -545,7 +549,7 @@ export default function Home() {
             ))}
           </div>
           <p className="fine-print">
-            Illustrative scenario assuming 25% average savings across water
+            Illustrative scenario assuming 22% average savings across water
             heating and other high-load appliances; actual results will vary.
           </p>
           <p className="impact-close">
@@ -613,6 +617,7 @@ export default function Home() {
           </article>
           <article className="glass-card why-card">
             <Label>The Better Path</Label>
+            <p>There&apos;s a faster path</p>
             <h2>Demand reduction needs no new power plants</h2>
             <ul>
               <li>No multi-year permitting processes</li>
