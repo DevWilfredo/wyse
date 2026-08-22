@@ -201,8 +201,8 @@ export default function InvestPage() {
                   <dd>typical water heater use</dd>
                 </div>
                 <div>
-                  <dt>~25% savings</dt>
-                  <dd>≈ 1,000 kWh saved</dd>
+                  <dt>~20% savings</dt>
+                  <dd>≈ 800 kWh saved</dd>
                 </div>
                 <div>
                   <dt>$170–$190/yr</dt>
