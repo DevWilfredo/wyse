@@ -218,7 +218,7 @@ export default function InvestPage() {
                 </div>
               </dl>
               <small>
-                Illustrative scenario assuming 25% average savings across water
+                Illustrative scenario assuming 20% average savings across water
                 heating and other high-load appliances; actual results will
                 vary.
               </small>
